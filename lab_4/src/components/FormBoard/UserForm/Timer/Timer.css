@@ -1,0 +1,26 @@
+.bg-form {
+    background-color: #312e2b; 
+}
+
+.bg-form button:hover, button:checked {
+    color: black;
+    background-color: white;
+}
+
+.bg-form button {
+    border-color: white;
+    width: 50%;
+    min-width: 100px;
+    height: 27px;
+    line-height: 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+    background-color: #779556;
+}
+
+.bordered {
+    border: 4px solid #779556;
+}
+

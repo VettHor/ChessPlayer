@@ -1,0 +1,33 @@
+.playBoard {
+    display: grid;
+    grid-template-columns: repeat(8, 85px);
+    grid-template-rows: repeat(8, 85px);
+}
+
+.vertical-headers {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.horizontal-headers {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.bg-boardBlack {
+    background-color: #769656;
+}
+
+.bg-boardWhite {
+    background-color: #eeeed2;
+}
+
+.boardBlack {
+    color: #769656;
+}
+
+.boardWhite {
+    color:#eeeed2;
+}
